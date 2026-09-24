@@ -33,9 +33,8 @@ body::after {
     width: 100%;
     height: 100vh;
 
-    background-image: url("./assets/images/background.jpg");
-    background-position: right bottom;
-    background-size: 60% 80%;
+    background-image: url("./assets/images/background_pattern_right.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
     z-index: -1;
