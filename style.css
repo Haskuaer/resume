@@ -155,3 +155,22 @@ p {
 .center {
     justify-content: center;
 }
+
+.projects {
+    max-width: 50vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    gap: 2rem;
+}
+
+.project {
+    padding: 75px;
+    text-align: center;
+    border: 1px solid #2B5748;
+    border-radius: 15px;
+}
+
+.project:hover {
+    border-color: #618764;
+}
