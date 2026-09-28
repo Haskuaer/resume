@@ -1,12 +1,15 @@
 .projects {
+    margin-top: 2rem;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(5, 250px);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-content: space-evenly;
     gap: 2rem;
 }
 
 .project {
-    padding: 75px;
+    aspect-ratio: 1.618 / 1;
+    padding: 2rem, 3rem;
     text-align: center;
     border: 1px solid #2B5748;
     border-radius: 15px;
