@@ -93,19 +93,6 @@ p {
     color: #2B5748;
 }
 
-.hero {
-    width: 100%;
-}
-
-.hero * {
-    margin-top: 1rem;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    color: #618764;
-}
-
 .button-flex {
     display: flex;
     gap: 1rem;
@@ -128,20 +115,6 @@ p {
 
 /* ABOUT */
 
-.info {
-    margin: 5rem 10rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.info h1 {
-    color: #618764;
-}
-
-.info p {
-    margin-top: 1rem;
-}
-
 .left {
     align-items: flex-start;
     text-align: left;
@@ -154,23 +127,4 @@ p {
 
 .center {
     justify-content: center;
-}
-
-.projects {
-    max-width: 50vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 250px);
-    gap: 2rem;
-}
-
-.project {
-    padding: 75px;
-    text-align: center;
-    border: 1px solid #2B5748;
-    border-radius: 15px;
-}
-
-.project:hover {
-    border-color: #618764;
 }

@@ -1,0 +1,12 @@
+.hero {
+    width: 100%;
+}
+
+.hero * {
+    margin-top: 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #618764;
+}
