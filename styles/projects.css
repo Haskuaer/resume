@@ -1,5 +1,4 @@
 .projects {
-    max-width: 50vw;
     height: auto;
     display: grid;
     grid-template-columns: repeat(5, 250px);

@@ -1,0 +1,1 @@
+1. Add scripts changing text alignment for responsiveness
