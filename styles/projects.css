@@ -2,17 +2,34 @@
     margin-top: 2rem;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-evenly;
     gap: 2rem;
 }
 
 .project {
     aspect-ratio: 1.618 / 1;
-    padding: 2rem, 3rem;
-    text-align: center;
     border: 1px solid #2B5748;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.5s;
+}
+
+.project:hover {
+    background-color: #2B5748;
+    transition: 0.5s;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-text {
+    padding: 0.5rem 1rem;
 }
 
 .project:hover {
