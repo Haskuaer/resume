@@ -36,10 +36,10 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 50%;
     height: 100vh;
 
-    background-image: url("../assets/images/background_pattern_test.png");
+    background-image: url("../assets/images/background_pattern.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -66,7 +66,7 @@ p {
 
 .container {
     margin: 0 auto 5rem;
-    min-height: 90vh;
+    min-height: 60vh;
     height: auto;
     padding: 0 10rem;
     display: flex;
@@ -139,6 +139,10 @@ p {
 }
 
 @media (max-width: 768px) {
+
+    .pattern::after {
+        display: none;
+    }
 
     .menu {
         margin-right: 0;
