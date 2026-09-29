@@ -1,0 +1,30 @@
+.contact {
+    padding: 2rem;
+    border: 1px solid #2B5748;
+    width: 50%;
+}
+
+.contact ul {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+.contact ul li a {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact ul li a:hover {
+    background-color: #2B5748;
+}
+
+.contact ul li a img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact ul li a param {
+    cursor: pointer;
+}
