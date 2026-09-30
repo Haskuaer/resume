@@ -18,6 +18,8 @@
     background-image: var(--project-image);
     background-size: cover;
     background-position: center;
+
+    filter: brightness(0.85);
 }
 
 .project::before {
@@ -53,9 +55,11 @@
     left: 0;
     right: 0;
     padding: 0.5rem 1rem;
+    font-size: 0.75rem;
 }
 
 .project:hover {
-    filter: brightness(1.12);
+    filter: brightness(1.05);
     border-color: #618764;
+    transition: 0.5s;
 }

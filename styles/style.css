@@ -64,6 +64,12 @@ p {
     max-width: 450px;
 }
 
+hr {
+    margin-top: 1rem;
+    border: none;
+    border-top: 1px solid #2B5748;
+}
+
 .bold {
     font-weight: bold;
 }
