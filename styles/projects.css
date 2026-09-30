@@ -8,30 +8,54 @@
 }
 
 .project {
+    position: relative;
     aspect-ratio: 1.618 / 1;
     border: 1px solid #2B5748;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
     transition: 0.5s;
+
+    background-image: var(--project-image);
+    background-size: cover;
+    background-position: center;
 }
 
-.project:hover {
+.project::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        #000000D9,
+        #00000059 45%,
+        transparent 75%
+    )
+}
+
+/* .project:hover {
     background-color: #2B5748;
     transition: 0.5s;
-}
+} */
 
-.project img {
+/* .project img {
     width: 100%;
     height: auto;
-    object-fit: fill;
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
+} */
 
-.project-text {
+.project-content {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 0.5rem 1rem;
 }
 
 .project:hover {
+    filter: brightness(1.12);
     border-color: #618764;
 }
