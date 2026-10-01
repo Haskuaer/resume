@@ -1,5 +1,22 @@
-# resume
+# RESUME
 My resume website
+
+## Styles
+
+Styles are separated by page. Global styles are in style.css where are document styles, basic elements styles, global classes, and main classes
+e.g.:
+
+#### DOCUMENT STYLE:
+body { ... }
+
+#### BASIC ELEMENTS:
+h1 { ... }
+
+#### GLOBAL CLASSES:
+.bold { font-weight: bold; }
+
+#### MAIN CLASSES:
+.container { ... }
 
 ## Responsiveness:
 

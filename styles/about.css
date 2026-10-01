@@ -12,6 +12,8 @@
     margin-top: 1rem;
 }
 
+/* RESPONSIVENESS */
+
 @media (max-width: 1024px) {
     
     .info {

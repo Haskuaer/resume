@@ -1,9 +1,78 @@
+/* DOCUMENT */
+
 * {
     margin: 0;
     box-sizing: border-box;
     color: lightgray;
 }
 
+body {
+    min-height: 100vh;
+    position: relative;
+
+    background: linear-gradient(
+        to bottom,
+        #000000 0%,
+        #273338 80%
+    );
+}
+
+/* BASIC ELEMENTS */
+
+h1 {
+    color: #618764;
+}
+
+p {
+    max-width: 450px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: 1rem;
+    border: none;
+    border-top: 1px solid #2B5748;
+}
+
+/* GLOBAL STYLES */
+
+.box-left {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.box-right {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.box-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* MAIN DOCUMENT STYLES */
+
+/* FONTS */
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -20,17 +89,7 @@
     "GRAD" 0;
 }
 
-body {
-    min-height: 100vh;
-    position: relative;
-
-    background: linear-gradient(
-        to bottom,
-        #000000 0%,
-        #273338 80%
-    );
-}
-
+/* BACKGROUND */
 .pattern::after {
     content: "";
     position: absolute;
@@ -47,33 +106,7 @@ body {
     pointer-events: none;
 }
 
-a {
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-a:hover {
-    transition: 0.5s;
-}
-
-h1 {
-    color: #618764;
-}
-
-p {
-    max-width: 450px;
-}
-
-hr {
-    margin-top: 1rem;
-    border: none;
-    border-top: 1px solid #2B5748;
-}
-
-.bold {
-    font-weight: bold;
-}
-
+/* MAIN DIV */
 .container {
     margin: 0 auto 5rem;
     min-height: 60vh;
@@ -83,6 +116,7 @@ hr {
     flex-direction: column;
 }
 
+/* MENU */
 .menu {
     margin-bottom: 5rem;
     margin-right: 5rem;
@@ -92,7 +126,6 @@ hr {
     display: flex;
     flex-direction: row-reverse;
     flex-basis: 200px;
-    list-style-type: none;
 }
 
 .menu ul li {
@@ -107,6 +140,7 @@ hr {
     color: #2B5748;
 }
 
+/* BUTTON CONTAINER */
 .button-flex {
     display: flex;
     flex-wrap: wrap;
@@ -128,25 +162,7 @@ hr {
     background-color: #9CB080;
 }
 
-/* ABOUT */
-
-.left {
-    align-items: flex-start;
-    text-align: left;
-}
-
-.right {
-    align-items: flex-end;
-    text-align: right;
-}
-
-.center {
-    justify-content: center;
-}
-
-.text-center {
-    text-align: center;
-}
+/* RESPONSIVENESS */
 
 @media (max-width: 768px) {
 
