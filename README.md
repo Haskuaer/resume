@@ -1,6 +1,27 @@
 # RESUME
 My resume website
 
+## About
+
+Personal resume and portfolio website showcasing my skills, projects and experience.
+
+## Features
+
+- Responsive design
+- About section
+- Projects showcase
+- Contact section
+
+## Technologies
+
+- HTML
+- CSS
+- JS
+
+##############
+    BEFORE
+##############
+
 ## Styles
 
 Styles are separated by page. Global styles are in style.css where are document styles, basic elements styles, global classes, and main classes
