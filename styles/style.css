@@ -1,4 +1,6 @@
-/* DOCUMENT */
+/*#############
+    DOCUMENT
+###############*/
 
 * {
     margin: 0;
@@ -16,61 +18,6 @@ body {
         #273338 80%
     );
 }
-
-/* BASIC ELEMENTS */
-
-h1 {
-    color: #618764;
-}
-
-p {
-    max-width: 450px;
-}
-
-a {
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-a:hover {
-    transition: 0.5s;
-}
-
-ul {
-    list-style-type: none;
-}
-
-hr {
-    margin-top: 1rem;
-    border: none;
-    border-top: 1px solid #2B5748;
-}
-
-/* GLOBAL STYLES */
-
-.box-left {
-    align-items: flex-start;
-    text-align: left;
-}
-
-.box-right {
-    align-items: flex-end;
-    text-align: right;
-}
-
-.box-center {
-    justify-content: center;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-/* MAIN DOCUMENT STYLES */
 
 /* FONTS */
 .montserrat {
@@ -106,7 +53,68 @@ hr {
     pointer-events: none;
 }
 
-/* MAIN DIV */
+/*###################
+    BASIC ELEMENTS 
+####################*/
+
+h1 {
+    color: #618764;
+}
+
+p {
+    max-width: 450px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: 1rem;
+    border: none;
+    border-top: 1px solid #2B5748;
+}
+
+/*#############
+    UTILITIES
+###############*/
+
+.box-left {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.box-right {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.box-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*##############
+    COMPONENTS
+################*/
+
+/* MAIN CONTAINER */
 .container {
     margin: 0 auto 5rem;
     min-height: 60vh;
@@ -162,7 +170,9 @@ hr {
     background-color: #9CB080;
 }
 
-/* RESPONSIVENESS */
+/*##################
+    RESPONSIVENESS
+####################*/
 
 @media (max-width: 768px) {
 
