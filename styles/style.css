@@ -5,12 +5,23 @@
 :root {
     /* COLOR PALLETE */
 
+    /* GREEN */
     --color-primary: #2B5748;
     --color-secondary: #618764;
     --color-lighter: #9CB080;
     --color-darker: #273338;
+    --color-accent: #C19C6F;
     --color-black: #;
     --color-white: lightgray;
+
+    /* BLUE */
+    /* --color-primary: #0F4C75;
+    --color-secondary: #3282B8;
+    --color-lighter: #BBE1FA;
+    --color-darker: #1B262C;
+    --color-accent: #C19C6F;
+    --color-black: #;
+    --color-white: lightgray; */
 
     /* SPACING */
     --spacing-sm: ;
@@ -37,8 +48,8 @@ body {
 
     background: linear-gradient(
         to bottom,
-        #000000 0%,
-        #273338 80%
+        var(--color-darker) 0%,
+        var(--color-primary) 85%
     );
 }
 
@@ -68,7 +79,7 @@ body {
     width: 50%;
     height: 100vh;
 
-    background-image: url("../assets/images/background_pattern.png");
+    background-image: url("../assets/images/background_pattern_accent.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -81,7 +92,7 @@ body {
 ####################*/
 
 h1 {
-    color: var(--color-secondary);
+    color: var(--color-accent);
 }
 
 p {
@@ -95,10 +106,6 @@ a {
 
 a:hover {
     transition: var(--transition-standard);
-}
-
-ul {
-    list-style-type: none;
 }
 
 hr {
@@ -133,6 +140,15 @@ hr {
     font-weight: bold;
 }
 
+.accent {
+    font-weight: bold;
+    color: var(--color-accent);
+}
+
+.highlight {
+    color: var(--color-lighter);
+}
+
 /*##############
     COMPONENTS
 ################*/
@@ -157,6 +173,7 @@ hr {
     display: flex;
     flex-direction: row-reverse;
     flex-basis: 200px;
+    list-style-type: none;
 }
 
 .menu ul li {
@@ -184,7 +201,8 @@ hr {
     font-weight: bold;
     text-align: center;
     color: var(--color-lighter);
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
+    border: 1px solid var(--color-secondary);
     border-radius: 15px;
 }
 

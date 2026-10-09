@@ -4,10 +4,6 @@
     flex-direction: column;
 }
 
-.info h1 {
-    color: #618764;
-}
-
 .info p {
     margin-top: 1rem;
 }
