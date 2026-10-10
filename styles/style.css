@@ -78,6 +78,7 @@ body {
     right: 0;
     width: 50%;
     height: 100vh;
+    opacity: 70%;
 
     background-image: url("../assets/images/background_pattern_accent.png");
     background-size: 100% 100%;
@@ -185,7 +186,7 @@ hr {
 }
 
 .menu ul li a:active {
-    color: var(--color-primary);
+    color: var(--color-accent);
 }
 
 /* BUTTON CONTAINER */

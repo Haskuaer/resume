@@ -7,3 +7,8 @@
 ~~7. Create variables in css for your pallete~~
 8. Consolidate new skills & be ready to explain what you did
 ~~9. Add descriptions to the projects~~
+10. Zmienić gradient dla różnych wysokości
+11. Dodać bg pattern dla innych stron
+12. Zastanowić się nad animacją dla bg patternu
+13. Rozdzielić bg patterny dla poszczególnych stron (ewentualnie zrobić jeden uniwersalny)
+14. 
