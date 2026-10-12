@@ -10,7 +10,7 @@
 .project {
     position: relative;
     aspect-ratio: 1.618 / 1;
-    border: 1px solid #2B5748;
+    /* border: 1px solid #C19C6F; */
     border-radius: 15px;
     overflow: hidden;
     transition: 0.5s;
@@ -60,6 +60,7 @@
 
 .project:hover {
     filter: brightness(1.05);
-    border-color: #618764;
+    border-color: #C19C6F;
+    box-shadow: 1px 1px 25px #C19C6F;
     transition: 0.5s;
 }

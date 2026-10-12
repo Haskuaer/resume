@@ -1,4 +1,12 @@
-.info {
+/* .deck {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+} */
+
+.card {
     max-width: 500px;
     margin: 2rem 0;
     padding: 3rem;
@@ -8,13 +16,14 @@
     text-align: center;
     border: 1px solid #C19C6F;
     border-radius: 50px;
+    box-shadow: 1px 1px 25px #C19C6F;
 }
 
-.info p {
+.card p {
     margin-top: 1rem;
 }
 
-.info ul {
+.card ul {
     text-align: left;
 }
 
@@ -22,7 +31,7 @@
 
 @media (max-width: 1024px) {
     
-    .info {
+    .card {
         margin: 2rem 0;
     }
 }
