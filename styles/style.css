@@ -39,6 +39,10 @@ a {
     opacity: 100%;
 }
 
+.flip {
+    transform: rotate(180deg);
+}
+
 /*----COMPONENTS----*/
 
 .container {
