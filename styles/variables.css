@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    /*----FONTS----*/
+
+    --font-main: "Montserrat", sans-serif;
+    --font-serif: "Lora", serif;
+
+    /*----COLORS----*/
+
+    --color-main: #889A6E;
+    --color-light: #EAE2D6;
+    --color-dark: #796955;
+    --color-text: #988A7B;
+
+    /*----SPACES----*/
+
+    --sm: 0.5rem; /*--8px--*/
+    --md: 1rem; /*--16px--*/
+    --lg: 1.5rem; /*--24px--*/
+    --xl: 2rem; /*--32px--*/
+    --xxl: 3rem; /*--48px--*/
+
+    /*----TRANSITION----*/
+
+    --very-quick: 0.2s;
+    --quick: 0.4s;
+    --steady: 0.5s;
+    --slow: 0.7s;
+    --very-slow: 1s;
+}
