@@ -1,0 +1,63 @@
+@import url("./variables.css");
+
+.main {
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--xxl);
+}
+
+.main-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--xxl);
+}
+
+.main-project {
+    width: 300px;
+    height: 250px;
+    background-color: var(--color-light);
+    border: var(--xs) solid var(--color-dark);
+    border-radius: var(--md);
+}
+
+.project-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--md);
+    padding: 0 var(--md);
+}
+
+.projects {
+    width: 1070px;
+    height: 360px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--sm);
+    padding: var(--sm);
+    opacity: 90%;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-light);
+    border: 2px solid var(--color-dark);
+    border-radius: var(--md);
+}
+
+.links {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--xxl);
+}
